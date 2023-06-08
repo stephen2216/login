@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.image{
+   
+  /* background-image: url("../loginpayroll/images/login.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover; */
+    background: url("../loginpayroll/images/login.png") no-repeat;
+    width: 100%;
+    height: 700px;
+   
+    background-size: cover;
+    /* height: 700px;
+    width: 100%;
+    background-image: url("../loginpayroll/images/login.png");
+    background-repeat:  no-repeat;
+    background-position:  left;   */
+ }
+.right{
+    
+    background-color: rgb(62, 130, 231);
+}
+.login{
+    float: right;
+   border: 1px solid black;
+   
+   height: 500px;
+   width: 400px;
+   text-align: center;
+   margin-top: 200px;
+   margin-right: 300px;
+   border-radius: 20px;
+
+}
+
+.login img{
+    height: 100px;
+    width: 100px;
+}
